@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    background: #0D1A2D;
+    
+}
+
+.container{
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    text-align: center;
+
+}
+.content-box{
+    width: 32rem;
+    margin: 10rem 0;
+    
+    background-color: #14273F;
+    border-radius: 1rem;
+    padding: 1.8rem;
+    color: #fff;
+    
+    
+}
+.image {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.content{
+    text-align: left;
+    margin: 2rem 0;
+}
+.content h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.content p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #bfd1ec;
+    margin-bottom: 1rem;
+}
+.left-right{
+    display: flex;
+    justify-content: space-between;
+}
+.left-right p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    
+}
+.colors{
+    color: #17CBD3;
+    font-weight: 500;
+}
+.colors h3{
+    font-size: 1.6rem;
+}
+
+.person{
+    display: flex;
+    height: 8rem;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+.person img{
+    width: 5rem;
+}
+.person p{
+    font-size: 1.8rem;
+    text-align: left;
+    color: #fff;
+    font-weight: 300;   
+}
+.person span{
+    font-size: 1.6rem;
+    text-align: left;
+    color: #bfd1ec;   
+}
